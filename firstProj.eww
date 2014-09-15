@@ -2,9 +2,6 @@
 
 <workspace>
   <project>
-    <path>$WS_DIR$\..\..\Desktop\STM32F4-Discovery_FW_V1.1.0\Project\Peripheral_Examples\EXTI\EWARM\Exti.ewp</path>
-  </project>
-  <project>
     <path>$WS_DIR$\FirstProj.ewp</path>
   </project>
   <batchBuild/>

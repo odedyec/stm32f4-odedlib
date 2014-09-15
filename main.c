@@ -2,10 +2,6 @@
 
 #include "LED_handler.h"
 #include "button_handler.h"
-#include "stm32f4xx_it.h"
-#include "stm32f4xx_exti.h"
-#include "stm32f4xx_syscfg.h"
-#include "misc.h"
 
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
@@ -39,7 +35,6 @@ int main(void)
   
   led_init(GPIO_Pin_12 | GPIO_Pin_13 | GPIO_Pin_14 | GPIO_Pin_15);
   button_init();
-
   while (1)
   {
     while(cnt == 0)
