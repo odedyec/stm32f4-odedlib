@@ -1940,6 +1940,9 @@
   <group>
     <name>USER</name>
     <file>
+      <name>$PROJ_DIR$\adc_handler.h</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\button_handler.h</name>
     </file>
     <file>
@@ -1959,6 +1962,9 @@
     </file>
     <file>
       <name>$PROJ_DIR$\system_stm32f4xx.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uart_handler.h</name>
     </file>
   </group>
 </project>
